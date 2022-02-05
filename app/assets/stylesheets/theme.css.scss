@@ -4,6 +4,8 @@ $brand-language: #02aab0;
 .jumbotron {
   background: $brand-primary;
   color: white;
+  padding: 10em 5em 100em 5em;
+  margin: 0px;
 
   .btn-primary {
     background: lighten($brand-primary, 20%);
