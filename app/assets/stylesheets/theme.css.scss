@@ -100,7 +100,6 @@ $brand-language: #000000;
 
 .infoClass {
   background-color: $brand-primary;
-  border-radius: 9%;
 }
 
 .column {
@@ -110,6 +109,11 @@ $brand-language: #000000;
   height: 12em;
   border-radius: 9%;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}​
 
 .example::-webkit-scrollbar{
   display: none;
