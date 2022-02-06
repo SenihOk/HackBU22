@@ -50,7 +50,8 @@ $brand-language: #02aab0;
 }
 
 .horizontalCover {
-  width: 100%;
+  padding-left: 50%;
+  padding-right: 50%;
   height: 20%;
   background:rgba(84, 94, 42, 0.644);
 }
@@ -63,10 +64,6 @@ $brand-language: #02aab0;
 }
 
 .buttonSpacing {
-  margin: 1em;
-}
-
-.linkSpacing {
   margin: 1em;
 }
 
