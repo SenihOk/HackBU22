@@ -111,3 +111,7 @@ $brand-language: #000000;
   height: 12em;
   border-radius: 9%;
 }
+
+.example::-webkit-scrollbar{
+  display: none;
+}
