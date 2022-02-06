@@ -11,14 +11,21 @@ $brand-language: #000000;
   .btn-primary {
     background: lighten($brand-primary, 20%);
     border-color: lighten($brand-primary, 20%);
-    &:hover {
-      background: lighten($brand-primary, 15%);
-    }
+    //&:hover {
+    //  background: lighten($brand-primary, 15%);
+    //}
     width: 200px;
+    height: height;
+    transition: width 0.2s, background-color 0.2s ;
+  }
+  .btn-primary:hover {
+    width: 210px;
+    height: (height + 10px);
+    background-color: lighten($brand-primary, 25%);
   }
 
   p {
-    color: lighten($brand-primary, 50%);
+    color: lighten(white, 10%);
     max-width: 75%;
     margin: 1em auto 2em;
   }
@@ -29,25 +36,28 @@ $brand-language: #000000;
 
   .filo-logo {
     display: block;
-    //background: $brand-language;
-    //border-radius: 50%;
+    background: lighten($brand-primary,15%);
+    border-radius: 20%;
+    border: 2px solid lighten($brand-primary,20%);
     overflow: hidden;
     width: 100px;
     height: 100px;
     margin: auto;
-    //border: 2px solid white;
     img {
       max-width: 100%;
     }
   }
 
+
+
   .staff_pic {
     border-radius: 50%;
-    width: 200px;
+    width: 150px;
     height: 250px;
-    object-fit: scale-down;
+    object-fit: cover;
     border: 2px solid white;
     background-color: black;
+    margin: 2em;
 
   }
 
