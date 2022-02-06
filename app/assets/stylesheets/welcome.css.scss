@@ -1,3 +1,76 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$brand-primary: #053B09;
+$brand-language: #000000;
+
+  table {
+    color: white;
+  }
+
+
+  .infolist {
+    color: white;
+    size: 10%;
+  }
+  
+  #creators{
+    background: $brand-primary;
+    width: 100vw;
+    padding-top: 50vh;
+  }
+  
+  .horizontalCover {
+    padding-left: 50%;
+    padding-right: 50%;
+    height: 20%;
+    background:rgba(59, 151, 87, 0.644);
+  }
+  
+  .verticalButtons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .buttonSpacing {
+    margin: 1em;
+  }
+  
+  .infoClass {
+    background-color: $brand-primary;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 50%; 
+  }
+  
+  ul {
+    list-style-type: style type;;
+    padding-left: 0;
+  }​
+  
+  .example{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .example::-webkit-scrollbar{
+    display: none;
+  }
+  a {
+      background-color: $brand-primary;
+      border-radius: 20%;
+      color: white;
+      border: lighten($brand-primary, 10%);
+  }
+
+  .title {
+    font-size: large;
+    font-weight: bold;
+    font: underline;
+  }
