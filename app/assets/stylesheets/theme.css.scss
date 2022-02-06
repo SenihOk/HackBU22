@@ -1,5 +1,5 @@
-$brand-primary: #25384e;
-$brand-language: #02aab0;
+$brand-primary: #053B09;
+$brand-language: #000000;
 
 .jumbotron {
   background: $brand-primary;
@@ -44,8 +44,9 @@ $brand-language: #02aab0;
   .staff_pic {
     width: 150px;
     height: 150px;
-    object-fit: contain;
+    object-fit: fill;
     border: 2px solid white;
+    background-color: black;
 
 
   }
@@ -80,6 +81,3 @@ $brand-language: #02aab0;
   height: 15em;
 }
 
-.columnBorders {
-  
-}
