@@ -29,7 +29,7 @@ $brand-language: #000000;
 
   .filo-logo {
     display: block;
-    background: $brand-language;
+    //background: $brand-language;
     border-radius: 50%;
     overflow: hidden;
     width: 100px;
@@ -42,13 +42,23 @@ $brand-language: #000000;
   }
 
   .staff_pic {
-    width: 150px;
-    height: 150px;
-    object-fit: fill;
+    border-radius: 50%;
+    width: 200px;
+    height: 250px;
+    object-fit: scale-down;
     border: 2px solid white;
     background-color: black;
 
+  }
 
+  rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
   }
 }
 
