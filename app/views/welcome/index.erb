@@ -1,6 +1,6 @@
 
 <div class="jumbotron text-center">
-  <div class="container">
+  <div class="container" style="height:100vh">
     <a href="/" class="filo-logo">
       <img src="<%= asset_path('filo-logo.png') %>">
     </a>
@@ -17,7 +17,7 @@
       </li>
 
       <li class = "buttonSpacing">
-      <a type="button" class="btn btn-lg btn-primary" onclick= "document.getElementById('creators').scrollIntoView({behavior:"smooth"});"> <span class="glyphicon glyphicon-knight"></span> Meet the Creators </a>
+      <a type="button" class="btn btn-lg btn-primary" onclick= "document.getElementById('creators').scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});"> <span class="glyphicon glyphicon-knight"></span> Meet the Creators </a>
       </li>
     </ul>
     
