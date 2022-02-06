@@ -40,6 +40,8 @@ $brand-language: #000000;
   
   .infoClass {
     background-color: $brand-primary;
+    font-size: 32px;
+    text-align: center;
   }
   
   .column {
@@ -61,12 +63,6 @@ $brand-language: #000000;
   
   .example::-webkit-scrollbar{
     display: none;
-  }
-  a {
-      background-color: $brand-primary;
-      border-radius: 20%;
-      color: white;
-      border: lighten($brand-primary, 10%);
   }
 
   .title {
