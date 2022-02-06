@@ -14,9 +14,13 @@
       <li class = "buttonSpacing">
       <a type="button" class="btn btn-lg btn-primary" href="https://filo-hackbu22.herokuapp.com/welcome/getstarted"> <span class="glyphicon glyphicon-send"></span> Get started </a>
       </li>
+
+      <li class = "buttonSpacing">
+      <a type="button" class="btn btn-lg btn-primary" onclick= "document.getElementById('creators').scrollIntoView();"> <span class="glyphicon glyphicon-Knight"></span> Meet the Creators </a>
+      </li>
     </ul>
     
-    <h3 style="text-align:center;">Coded By<br> Christopher, Senih, Shaun</h3>
+    <h3 id = "creators" style="text-align:center;">Coded By<br> Christopher, Senih, Shaun</h3>
     <div class = "row">
       <img src="<%= asset_path('bingham.png') %>", class = "staff_pic"> 
       <img src="<%= asset_path('senih.png') %>", class = "staff_pic"> 
