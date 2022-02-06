@@ -95,12 +95,14 @@ $brand-language: #000000;
 }
 
 .infoClass {
-  background-color: rgb(59, 151, 87);
+  background-color: $brand-primary;
+  border-radius: 9%;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 10px; 
-  height: 15em;
+  width: 29%;
+  padding: 1px; 
+  margin: 1em;
+  height: 12em;
+  border-radius: 9%;
 }
