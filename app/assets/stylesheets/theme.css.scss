@@ -13,6 +13,7 @@ $brand-language: #02aab0;
     &:hover {
       background: lighten($brand-primary, 15%);
     }
+    width: 200px;
   }
 
   p {
@@ -41,3 +42,13 @@ $brand-language: #02aab0;
 
 }
 
+.verticalButtons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.buttonSpacing {
+  margin: 1em
+}
