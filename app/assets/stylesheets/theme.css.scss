@@ -102,10 +102,19 @@ $brand-language: #000000;
   background-color: $brand-primary;
 }
 
+/* Create three equal columns that floats next to each other */
 .column {
+  float: left;
   width: 33.33%;
-  height: 12em;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 ul {
