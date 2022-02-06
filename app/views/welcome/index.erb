@@ -17,18 +17,18 @@
       </li>
 
       <li class = "buttonSpacing">
-      <a type="button" class="btn btn-lg btn-primary" onclick= "document.getElementById('creators').scrollIntoView();"> <span class="glyphicon glyphicon-knight"></span> Meet the Creators </a>
+      <a type="button" class="btn btn-lg btn-primary" onclick= "document.getElementById('creators').scrollIntoView({behavior:"smooth"});"> <span class="glyphicon glyphicon-knight"></span> Meet the Creators </a>
       </li>
     </ul>
     
-    <section id = "creators"> 
+    <div id = "creators"> 
     <h3 style="text-align:center;">Coded By<br> Christopher, Senih, Shaun</h3>
     <div class = "row">
       <img src="<%= asset_path('bingham.png') %>", class = "staff_pic"> 
       <img src="<%= asset_path('senih.png') %>", class = "staff_pic"> 
       <img src="<%= asset_path('shaun.png') %>", class = "staff_pic">
     </div>
-    </section>
+    </div>
 
   </div>
  </div>

@@ -101,6 +101,10 @@ $brand-language: #000000;
   border-radius: 9%;
 }
 
+.h2Color {
+  color: adjust-color($color: rgb(184, 41, 41), $red: 1, $green: 2, $blue: 3, $hue: 0, $saturation: 0%, $lightness: 0%, $alpha: 1.0);
+}
+
 .column {
   width: 29%;
   padding: 1px; 
