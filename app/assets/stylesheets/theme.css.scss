@@ -57,7 +57,11 @@ $brand-language: #02aab0;
 }
 
 .buttonSpacing {
-  margin: 1em
+  margin: 1em;
+}
+
+.linkSpacing {
+  margin: 1em;
 }
 
 .infoClass {
@@ -68,5 +72,11 @@ $brand-language: #02aab0;
   float: left;
   width: 33.33%;
   padding: 10px; 
-  height: 10em;
+  height: 15em;
+}
+
+.columnBorders {
+  padding: 3%;
+  border-radius: 25%;
+  background: rgba(84, 94, 42, 0.644);
 }
