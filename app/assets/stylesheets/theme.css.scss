@@ -27,7 +27,7 @@ $brand-language: #02aab0;
     margin-top: -50px;
   }
 
-  .lang-logo {
+  .filo-logo {
     display: block;
     background: $brand-language;
     border-radius: 50%;
@@ -45,6 +45,8 @@ $brand-language: #02aab0;
     width: 150px;
     height: 150px;
     object-fit: contain;
+    border: 2px solid white;
+
 
   }
 }
